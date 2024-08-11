@@ -1,0 +1,10 @@
+type Mutation {
+    signUp(
+        firstName: String!,
+        lastName: String!,
+        email: String!,
+        password: String!,
+        businessName: String!,
+        country: CountryInput!
+    ): Auth!
+}

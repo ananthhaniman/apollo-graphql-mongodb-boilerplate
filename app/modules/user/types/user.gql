@@ -1,0 +1,12 @@
+type User {
+    _id: String!
+    isVerified: Boolean!,
+    active: Boolean!,
+    lastActive: String!,
+    firstName: String!,
+    lastName: String!,
+    email: String!,
+    createdAt: String!,
+    updatedAt: String!,
+    dateOfBirth: String!
+}
